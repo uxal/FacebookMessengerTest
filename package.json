@@ -1,0 +1,31 @@
+{
+  "name": "facebookmessengertest",
+  "version": "1.0.0",
+  "description": "A project to test messenger bots",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxal/FacebookMessengerTest.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "bots"
+  ],
+  "author": "Dragos Lascu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxal/FacebookMessengerTest/issues"
+  },
+  "homepage": "https://github.com/uxal/FacebookMessengerTest#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "config": "^1.25.1",
+    "express": "^4.14.1",
+    "request": "^2.79.0"
+  }
+}
