@@ -1,6 +1,3 @@
-
-'use strict';
-
 const
     bodyParser = require('body-parser'),
     config = require('config'),
