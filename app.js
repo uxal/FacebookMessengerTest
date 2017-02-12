@@ -317,7 +317,7 @@ function AnalyseText(messageText) {
     messageText = messageText.toLowerCase();
     if (messageText.indexOf("rezervare") > -1 && messageText.indexOf(":") > -1) {
         var pointsPosition = messageText.indexOf(":");
-        var time = messageText.substring(pointsPosition - 2, pointsPosition + 2);
+        var time = messageText.substring(pointsPosition - 2, pointsPosition + 3);
         return ("OK, fac rezervare automata la ora " + time);
     }
     return "Trimite un mesaj care sa contina 'rezervare' si ora in format 'hh:mm'";
